@@ -1,0 +1,70 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: 0;
+ }
+ body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ header h1 {
+  font-weight: 500;
+  font-size: 18px;
+  padding-right: 110px;
+ }
+ 
+ header {
+  background-color: #37bbed;
+  color: white;
+  display: flex;
+  vertical-align: middle;
+  align-items: flex-end;
+  height: 50px;
+  justify-content: space-around;
+  padding-bottom: 16px;
+  width: 100%;
+ }
+ 
+ .fa-arrow-left {
+  margin-bottom: 3px;
+ }
+ .fa-rotate-right {
+  margin-bottom: 2.5px;
+ }
+ 
+ header i{
+  font-size: 19px;
+ }
+ 
+.fotofirma img {
+ margin-top: 20px;
+ width: 359px;
+ height: 287.5px;
+ align-items: center;
+ margin-bottom: 20px;
+} 
+.firma img {
+ margin-top: 25px;
+ width: 100%;
+ height: 161.5px;
+ align-items: center;
+ margin-bottom: 20px;
+} 
+
+ul li h1 {
+ margin-left: 20px;
+ font-size: 17px;
+ margin-top: 15px;
+}
+ul li p {
+ margin-left: 20px;
+ font-size: 16px;
+}
+ul {
+ list-style: none;
+}
+
+header a {
+ color: white;
+ text-decoration: none;
+}

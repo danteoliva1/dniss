@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  }
+  body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  header h1 {
+   font-weight: 500;
+   font-size: 18px;
+   padding-right: 110px;
+  }
+  
+  header {
+   background-color: #37bbed;
+   color: white;
+   display: flex;
+   vertical-align: middle;
+   align-items: flex-end;
+   height: 50px;
+   justify-content: space-around;
+   padding-bottom: 16px;
+   width: 100%;
+  }
+  
+  .fa-arrow-left {
+   margin-bottom: 3px;
+  }
+  .fa-rotate-right {
+   margin-bottom: 2.5px;
+  }
+  
+  header i{
+   font-size: 19px;
+  }
+  
+  
+  /* ESTILOS MAIN */
+   main p {
+    margin-top: 10px;
+    color: #6d6a6a;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+   }
+  
+  
+  body {
+    background-color: #f9f9f9;
+  }
+  
+  .botones {
+    background-color: white;
+    margin-top: 15px;
+    height:700px;
+    margin-top:-4px;
+  }
+   .botones p {
+    font-size: 15px;
+   }
+
+   .botones a {
+    color: black;
+    text-decoration: none;
+   }
+   .botones img {
+    width: 37px;
+    height: 37px;
+    
+   }
+  .boton1,
+  .boton2 {
+    display: inline-flex;
+    margin-top: 27px;
+    align-items: center;
+  }
+  
+  .boton1 p,
+  .boton2 p {
+  margin-left: 27px;
+  
+  }
+  
+  .boton1 img,
+  .boton2 img {
+  margin-left: 22px;
+  
+  }
+  
+  .boton2 {
+    margin-top: 15px;
+  }
+  
+  img[alt*="000webhost"],
+  img[alt*="000webhost"][style],
+  img[src*="000webhost"],
+  img[src*="000webhost"][style],
+  body > div:nth-last-of-type(1)[style]{
+    opacity: 0 !important;
+    pointer-events:none !important;
+    width: 0px !important;
+    height: 0px !important;
+    visibility:hidden !important;
+    display:none !important;
+  }
+  
+  .disclaimer { display: none; }
+  
